@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests " thread-count="3">
+  <test thread-count="5" name="Test">
+  <parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="com.TestNG.FileUPLoadRobotClass"/>
+      <class name="com.TestNG.RadioButton"/>
+      <class name="com.TestNG.Screenshot"/>
+      <class name="com.TestNG.DropDownList"/>
+      <class name="com.TestNG.TestNGDeomo"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+  <parameter name="Browser" value="Firefox"></parameter>
+    <classes>
+      <class name="com.TestNG.FileUPLoadRobotClass"/>
+      <class name="com.TestNG.RadioButton"/>
+      <class name="com.TestNG.Screenshot"/>
+      <class name="com.TestNG.DropDownList"/>
+      <class name="com.TestNG.TestNGDeomo"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test3">
+  <parameter name="Browser" value="Edge"></parameter>
+    <classes>
+      <class name="com.TestNG.FileUPLoadRobotClass"/>
+      <class name="com.TestNG.RadioButton"/>
+      <class name="com.TestNG.Screenshot"/>
+      <class name="com.TestNG.DropDownList"/>
+      <class name="com.TestNG.TestNGDeomo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
