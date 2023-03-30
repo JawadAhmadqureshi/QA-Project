@@ -29,7 +29,7 @@ WebDriver driver;
 		@Test
 	public  void iframe() {
 	
-		
+		System.out.println("I love pakistan");
 		driver.switchTo().frame(driver.findElement(By.xpath("//*[@id=\"content\"]/iframe")));
 		driver.findElement(By.xpath("//*[@id=\"tags\"]")).sendKeys("My name is jawad");
 		

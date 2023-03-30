@@ -13,7 +13,7 @@ import org.testng.asserts.SoftAssert;
 public class Car {
 	@Test(description="honda modle 2015", priority = 1, invocationCount=2)
 	public static void honda() {
-		
+		System.out.println("This is my car");
 		System.out.println("My first car");
 	}
 	@Test(description = "toyota modle 2022",priority=2)
